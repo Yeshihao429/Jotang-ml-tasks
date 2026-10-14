@@ -1,5 +1,6 @@
 # 实验笔记
 ## 任务部分
+[./make_moons训练模型.ipynb](./make_moons训练模型.ipynb)
 1. 激活函数的选择：ReLU，默认的首选，计算简单又快、缓解梯度消失
 2. 损失函数的选择：选择CrossEntropyLoss交叉熵损失，它内部包含LogSoftmaax，避免手动Softmax导致的数值不稳定；三分类也可以用CrossEntropyLoss，或者NLLLoss+手动LogSoftmax
 ```python

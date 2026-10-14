@@ -1,0 +1,8 @@
+model_path: ./saved_model/best_model.pth
+data_root: ./cats_and_dogs/test1
+dataset_root: ./cats_and_dogs
+train_root: ./cats_and_dogs/train
+n_show: 1
+class_names:
+  - cat
+  - dog

@@ -1,0 +1,6 @@
+model_path: ./saved_model/best_model.pth
+data_root: ./cats_and_dogs/test1
+n_show: 1
+class_names:
+  - cat
+  - dog
